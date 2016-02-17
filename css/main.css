@@ -11,15 +11,21 @@
   min-height: 100vh;
 }
 
-nav {
+#nav-menu {
   position: fixed;
-  background-color: red;
+  background-color: #303030;
   min-width: 100vw;
   height: 80px;
+  text-align: center;
 }
 
 nav ul {
+
+}
+
+nav ul li {
   display: inline;
+    padding: 20px;
 }
 
 .page {
