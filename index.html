@@ -5,19 +5,27 @@
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <title>Iuri Matos :: FreeCodeCamp :: Portfólio</title>
   <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
   <div class="flex-content">
     <nav id="nav-menu">
       <ul>
-        <li><a href="#social">Social</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a data-scroll href="#social">Social</a></li>
+        <li><a data-scroll href="#about">About</a></li>
+        <li><a data-scroll href="#contact">Contact</a></li>
       </ul>
     </nav>
 
     <section id="social" class="page">
-      <h2>Content 1</h2>
+      <h2>Social</h2>
+      <div class="social-content">
+        <ul style="background-color: red;">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Github</a></li>
+        </ul>
+      </div>
     </section>
 
     <section id="about" class="page">
@@ -28,5 +36,12 @@
       <h2>Content 3</h2>
     </section>
   </div>
+
+  <!-- Scripts -->
+  <script src="js/smooth-scroll.min.js">
+  </script>
+  <script>
+    smoothScroll.init();
+  </script>
 </body>
 </html>
