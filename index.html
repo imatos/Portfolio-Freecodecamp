@@ -10,30 +10,79 @@
 <body>
   <div class="flex-content">
     <nav id="nav-menu">
-      <ul>
-        <li><a data-scroll href="#social">Social</a></li>
-        <li><a data-scroll href="#about">About</a></li>
-        <li><a data-scroll href="#contact">Contact</a></li>
+      <ul class="list">
+        <li class="list-item"><a class="list-link" data-scroll href="#social">Social</a></li>
+        <li class="list-item"><a class="list-link" data-scroll href="#about">About</a></li>
+        <li class="list-item"><a class="list-link" data-scroll href="#portfolio">Portfolio</a></li>
+        <li class="list-item"><a class="list-link" data-scroll href="#contact">Contact</a></li>
       </ul>
     </nav>
 
     <section id="social" class="page">
-      <h2>Social</h2>
+      <h2 class="page-title">My Social Profiles</h2>
+
       <div class="social-content">
-        <ul style="background-color: red;">
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Github</a></li>
+        <ul class="list">
+          <li class="list-item">
+            <a class="list-link btn-social twitter" href="https://twitter.com/matosiuri" target="_blank">
+              <span>Twitter</span>
+            </a>
+          </li>
+          <li class="list-item">
+            <a class="list-link btn-social facebook" href="https://facebook.com/matos.iuri" target="_blank">
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li class="list-item">
+            <a class="list-link btn-social github" href="http://github.com/imatos" target="_blank">
+              <span>Github</span>
+            </a>
+          </li>
+          <li class="list-item">
+            <a class="list-link btn-social linkedin" href="https://br.linkedin.com/in/iuriamatos" target="_blank">
+              <span>Linkedin</span>
+            </a>
+          </li>
         </ul>
       </div>
     </section>
 
     <section id="about" class="page">
-      <h2>Content 2</h2>
+      <h2 class="page-title">About Me</h2>
+      <p>
+        My name is <b>Iuri Matos</b> and I'm a <b>software developer</b>.
+      </p>
+    </section>
+
+    <section id="portfolio" class="page">
+      <h2 class="page-title">Portfolio</h2>
+      <p>
+        Some works...
+      </p>
+      <div id="portfolio-gallery">
+        <div class="portfolio-item">
+          Project #1
+        </div>
+        <div class="portfolio-item">
+          Project #2
+        </div>
+        <div class="portfolio-item">
+          Project #3
+        </div>
+        <div class="portfolio-item">
+          Project #4
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="page">
-      <h2>Content 3</h2>
+      <h2 class="page-title">Contact</h2>
+      <p>
+        You can contact me at <span class="email"><a href="mailto:iuriamatos@gmail.com">iuriamatos@gmail.com</a></span>.
+      </p>
+      <p>
+        Or you can use any social profile <b>¯\_(ツ)_/¯</b>
+      </p>
     </section>
   </div>
 

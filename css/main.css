@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #2d2b2b;
+}
+
 .flex-content {
   position: relative;
   display: flex;
@@ -16,20 +20,25 @@
   background-color: #303030;
   min-width: 100vw;
   height: 80px;
-  border-bottom: 3px solid #EA0000;
+  border-bottom: 2px solid #EA0000;
   text-align: center;
 }
 
-#nav-menu ul {
+.list {
   list-style: none;
 }
 
-#nav-menu ul li {
+.list-item {
   display: inline;
 }
 
-#nav-menu ul li a {
+.list-link {
+  display: inline-block;
+  text-decoration: none;
   padding: 0 30px;
+}
+
+#nav-menu ul li a {
   display: inline-block;
   height: 77px;
   line-height: 77px;
@@ -39,29 +48,113 @@
   font-size: 22px;
   font-family: monospace;
   font-weight: bold;
-  text-decoration: none;
 }
 
 #nav-menu ul li a:hover {
-	background-color: #6b6868;
-	color: #fff;
+  background-color: #3b3a3a;
+  color: #fff;
 }
 
 .page {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid rgba(3, 3, 3, 0.06);
+}
+
+.btn-social {
+  display: inline-block;
+  line-height: 50px;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.page-title {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 42px;
+  text-shadow: 0 1px 3px #222;
 }
 
 #social {
+  background: #202021 url("../images/octicons-bg.png") center repeat;
   background-color: #1F5768;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.facebook:hover {
+  background-color: rgba(59, 89, 152, 0.7);
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.twitter:hover {
+  background-color: rgba(85, 172, 238, 0.7);
+}
+
+.github {
+  background-color: #000;
+}
+
+.github:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.linkedin {
+  background-color: #007bb5;
+}
+
+.linkedin:hover {
+  background-color: rgba(0, 123, 181, 0.7);
 }
 
 #about {
   background-color: #4AC9E8;
 }
 
+#portfolio {
+  background-color: #4ae8b4;
+}
+
+#portfolio-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.portfolio-item {
+  margin: 0 10px;
+  height: 200px;
+  width: 200px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 5%;
+  background-color: #f98b6d;
+}
+
 #contact {
   background-color: #E88D99;
+}
+
+.email a {
+  text-decoration: none;
+
+  color: #371616;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 15px;
 }
