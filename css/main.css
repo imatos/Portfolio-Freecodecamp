@@ -84,7 +84,7 @@ body {
 
 #social {
   background: #202021 url("../images/octicons-bg.png") center repeat;
-  background-color: #1F5768;
+  background-color: rgba(31, 88, 105, 0.80);
 }
 
 .facebook {
@@ -120,11 +120,11 @@ body {
 }
 
 #about {
-  background-color: #4AC9E8;
+  background-color: rgba(74, 201, 232, 0.8);
 }
 
 #portfolio {
-  background-color: #4ae8b4;
+  background-color: rgba(74, 232, 180, 0.8);
 }
 
 #portfolio-gallery {
@@ -177,7 +177,7 @@ body {
 }
 
 #contact {
-  background-color: #E88D99;
+  background-color: rgba(232, 142, 153, 0.8);
 }
 
 .email a {
