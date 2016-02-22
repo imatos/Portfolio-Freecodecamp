@@ -135,12 +135,45 @@ body {
 }
 
 .portfolio-item {
+  overflow: hidden;
   margin: 0 10px;
   height: 200px;
   width: 200px;
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-radius: 5%;
-  background-color: #f98b6d;
+}
+
+.portfolio {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+}
+
+.portfolio-title {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 3px #222;
+}
+
+.my-todo-box {
+  background: url("../images/todo.png") center no-repeat;
+  background-color: rgba(33, 62, 172, 0.8);
+}
+
+.my-todo-box:hover {
+  background-color: rgba(33, 62, 172, 0.5);
+}
+
+.my-portfolio-site {
+  background: url("../images/portfolio.png") center no-repeat;
+  background-color: rgba(242, 27, 27, 0.8);
+}
+
+.my-portfolio-site:hover {
+  background-color: rgba(242, 27, 27, 0.5);
 }
 
 #contact {
@@ -149,7 +182,6 @@ body {
 
 .email a {
   text-decoration: none;
-
   color: #371616;
   font-size: 22px;
   font-weight: bold;
